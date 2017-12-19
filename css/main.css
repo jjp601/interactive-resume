@@ -1,0 +1,439 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  h3 {
+    text-transform: uppercase;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: 800;
+  }
+
+  h6 {
+    font-size: 0.8em;
+    font-weight: normal;
+    font-style: italic;
+    margin: 20px 0 10px;
+  }
+
+  section {
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 4px 4px 24px 2px rgba(0,0,0,0.6); 
+  }
+
+
+  p {
+    margin: 10px 10px;
+  }
+
+  .resume {
+    background-color: #FFF;
+    padding-top: 10px;
+  }
+  
+  .about img {
+    display: block;
+    max-width: 50%;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 4px 4px 24px 2px rgba(0,0,0,0.6); 
+  }
+
+
+  .education img {
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+    height: 50%;
+  }
+
+  
+
+
+  .skills .primary {
+    width: 100%;
+    float: left;
+    margin: 0 5%;
+  }
+
+  .skills .primary .col {
+    width: 30%;
+    float: left;
+    text-align: center;
+  }
+
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .projects img:hover {
+    box-shadow: 4px 4px 24px 2px rgba(0,192,245,0.6);
+  }
+
+  .projects ul {
+    list-style-type: none;
+    padding: 5px 0;
+  }
+
+  .experience h5 {
+    margin: 10px 0;
+  }
+
+  
+  /**********************************
+  HEADING
+  ***********************************/
+  
+  header {
+    float: left;
+    padding: 5px 0 0 0;
+    width: 100%;
+    box-shadow: 0px 2px 5px 1px rgba(191,191,191,0.9);
+  }
+  
+  header img {
+    position: fixed;
+    height: 50px;
+    margin: 10px 20px;
+  }
+  
+  #logo {
+    text-align: center;
+    margin: 0;
+  }
+  
+  
+  h1 {
+    font-family: 'Passion One', sans-serif;
+    margin: 15px 25px;
+    font-size: 3em;
+    font-weight: normal;
+    line-height: 0.7em;
+  }
+  
+  h2 {
+    font-size: 0.825em;
+    margin: -5px 25px 0;
+    font-weight: normal;
+  }
+  
+  
+  
+  /**********************************
+  NAVIGATION
+  ***********************************/
+  
+  nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    font-weight: 800;
+    text-transform: capitalize;
+    padding: 15px 10px;
+  }
+  
+  
+  
+  /**********************************
+  FOOTER
+  ***********************************/
+  
+  footer {
+    float: left;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    font-size: 0.8em;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 1px rgba(117, 116, 116, 0.9);
+  }
+
+  footer p {
+    margin: 0px;
+    padding: 5px;
+  }
+  
+  .fa {
+    margin: 5px;
+    color: black;
+  }
+  
+  .fa:hover {
+    color: #00C0F5; 
+  }
+  
+  
+
+
+  /**********************************
+  RESUME
+  ***********************************/
+
+  .wrapper {
+    margin: 125px 5% 100px;
+    
+  }
+  
+  /**********************************
+  COLORS
+  ***********************************/
+  
+  /* site body */
+  body {
+    background-color: #f8f8f8;
+    color: #000;
+  }
+  
+  /* black header */
+  header {
+    background: #000;
+    border-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  
+  /* nav background on mobile */
+  nav {
+    background: #000;
+  }
+  
+  /* logo text */
+  h1, h2 {
+    color: #fff;
+  }
+  
+  /* links */
+  a {
+    color: #00C0F5;
+  }
+
+  a:focus {
+    outline: none;
+  }
+  
+  /* nav link */
+  nav a, nav a:visited {
+    color: #fff;
+  }
+  
+  /* selected nav link */
+  nav a.selected, nav a:hover {
+    color: #00C0F5;
+  }
+
+ 
+  
+  /**********************************
+  RESPONSIVE
+  ***********************************/
+  @media screen and (max-width: 489px) {
+
+    nav {
+      max-width: 100%;
+      font-size: 0.7em;
+    }
+
+    nav a {
+      padding: 4px;
+    }
+
+  }  
+
+  @media screen and (max-width: 569px) {
+
+    /**********************************
+    General
+    ***********************************/
+
+    p {
+      margin-left: 20px;
+    }
+
+    h4 {
+      margin-left: 20px; 
+    }
+
+    h5 {
+      margin: 1em 0 0 20px;
+    }
+
+    h6 {
+      margin-left: 20px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+  
+    /**********************************
+    RESUME
+    ***********************************/
+    
+    .about img {
+      max-width: 60%;
+    }
+
+    .skills .primary .col {
+      width: 90%;
+      
+    }
+
+    .projects img {
+      max-width: 90%;
+      display: block;
+      margin: 20px auto;
+      border-radius: 5px;
+      box-shadow: 4px 4px 24px 2px rgba(0,0,0,0.6);
+    }
+
+    .experience img {
+      display: block;
+      margin: 20px auto;
+      width: 60%;
+    }
+
+  }
+  
+  
+  @media screen and (min-width: 569px) {
+  
+    /**********************************
+    HEADER
+    ***********************************/
+  
+    h2 {
+      margin-bottom: 20px;
+    }
+    
+    /**********************************
+    TWO COLUMN LAYOUT
+    ***********************************/
+    
+
+    .primary {
+      width: 40%;
+      float: left;
+    }
+    
+    .secondary {
+      width: 50%;
+      float: right;
+    }
+
+    .experience .primary {
+      width: 30%;
+    }
+    
+    .experience .secondary {
+      width: 60%;
+    }
+    
+    /**********************************
+    RESUME
+    ***********************************/
+    .about img {
+      max-width: 70%;
+    }
+
+    .projects img {
+      max-width: 90%;
+      display: block;
+      margin: 20px auto;
+      border-radius: 5px;
+      box-shadow: 4px 4px 24px 2px rgba(0,0,0,0.6);
+    }
+
+    .experience img {
+      display: block;
+      margin: 20px auto;
+      width: 80%;
+    }
+    
+  }
+  
+  @media screen and (min-width: 850px) {
+  
+    /**********************************
+    HEADER
+    ***********************************/
+  
+    nav {
+      background: none;
+      float: right;
+      font-size: 1.125em;
+      margin-right: 5%;
+      text-align: right;
+      max-width: 70%;
+    }
+    
+    #logo {
+      float: left;
+      margin-left: 5%;
+      text-align: left;
+      
+    }
+    
+  
+    /**********************************
+    RESUME
+    ***********************************/
+    .about img {
+      display: block;
+      max-width: 60%;
+      margin: 20px auto;
+      border-radius: 5px;
+      box-shadow: 4px 4px 24px 2px rgba(0,0,0,0.6); 
+    }
+
+    .experience img {
+      display: block;
+      margin: 20px auto;
+      width: 70%;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
