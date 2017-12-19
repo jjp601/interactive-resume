@@ -51,7 +51,7 @@
                   <img src="" alt="Education" data-bind="attr: {src: imgSrc}">
                 </div>
                 <div class="secondary">
-                    <h6><span data-bind="text: startDate"></span> - <span data-bind="text: endDate"></span></h6>
+                    <h6 data-bind="text: startEndDate"></h6>
                     <h5>School:</h5>   
                     <p data-bind="text: school"></p>
                     <h5>Degree:</h5>
@@ -119,8 +119,7 @@
                       <img src="" alt="Experience" data-bind="attr: {src: imgSrc}">
                     </div>
                     <div class="secondary">
-                        <h6><span data-bind="text: startDate"></span> - <span data-bind="text: endDate"></span></h6>
-                        
+                        <h6 data-bind="text: startEndDate"></h6>
                         <h5>Employer:</h5>   
                         <p data-bind="text: employer"></p>
                         <h5>Title:</h5>

@@ -147,6 +147,9 @@ var Education = function(data) {
     this.major = ko.observable(data.major);
     this.startDate = ko.observable(data.startDate);
     this.endDate = ko.observable(data.endDate);
+    this.startEndDate = ko.computed(function() {
+        return this.startDate() + " - " + this.endDate();
+    }, this);
     this.imgSrc = ko.observable(data.imgSrc);
 };
 
@@ -171,6 +174,9 @@ var Experience = function(data){
     this.location = ko.observable(data.location);
     this.startDate = ko.observable(data.startDate);
     this.endDate = ko.observable(data.endDate);
+    this.startEndDate = ko.computed(function() {
+        return this.startDate() + " - " + this.endDate();
+    }, this);
     this.details = ko.observableArray(data.details);
     this.imgSrc = ko.observable(data.imgSrc);
 };
